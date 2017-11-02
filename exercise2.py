@@ -15,3 +15,5 @@ print(my_list[1])
 print(my_list[-1])
 
 # Use similar code to print yak, which is second from the end, and unicorn, which is sixth from the end
+
+print(my_list[:3])
