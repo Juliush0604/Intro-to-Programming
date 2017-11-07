@@ -8,6 +8,10 @@ print(f"my_list is {len(my_list)} items long")
 my_list.append(input("What animal would you like to add? >>> "))
 
 # How long is the list now? Print the value out
-
+print(f"my_list is now {len(my_list)} items long")
 
 # Add three more animals to the list, then print the list
+my_list.append('human')
+my_list.append('fish')
+my_list.append('monkey')
+print(my_list)
